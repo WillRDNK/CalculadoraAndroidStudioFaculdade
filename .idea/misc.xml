@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/drawable/btn_number_onclick_action.xml" value="0.343" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/drawable/shape_btn_number_default.xml" value="0.3385" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/drawable/shape_btn_number_onclick.xml" value="0.343" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/layout-land/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/menu/menu_main.xml" value="0.2824074074074074" />
+        <entry key="..\:/Users/Guisi/AndroidStudioProjects/Calculadora/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3675" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

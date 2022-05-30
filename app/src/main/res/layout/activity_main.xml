@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextExpres"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="5+5"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+
+    <TextView
+        android:id="@+id/TextResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:text="= 10"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btClear"
+            style="@style/ButtonOperationGray"
+            android:layout_weight="1"
+            android:text="AC" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btHystory"
+            style="@style/ButtonOperationGray"
+            android:text="H" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btPercentage"
+            style="@style/ButtonOperationGray"
+            android:layout_weight="1"
+            android:text="%" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btDivision"
+            style="@style/ButtonOperation"
+            android:text="/" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btSeven"
+            style="@style/NumberButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btEight"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btNine"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="9" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btMultiply"
+            style="@style/ButtonOperation"
+            android:text="x" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btFour"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btFive"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btSix"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="6" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btSubtraction"
+            style="@style/ButtonOperation"
+            android:text="-" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btOne"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btTwo"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btThree"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btAddition"
+            style="@style/ButtonOperation"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btZero"
+            style="@style/NumberButton"
+            android:layout_width="3dp"
+            android:layout_weight="2"
+            android:text="0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btDot"
+            style="@style/NumberButton"
+            android:layout_weight="1"
+
+            android:text="," />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btResult"
+            style="@style/ButtonOperation"
+            android:text="=" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
