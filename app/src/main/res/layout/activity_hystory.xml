@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/H_TextExpres"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="5+5"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/H_TextResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:text="= 10"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/H_Line"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/white" />
+
+
+
+    <TextView
+        android:id="@+id/H_TextExpres2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="679 / 15"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/H_TextResult2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:text="= 45.26"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/H_Line2"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/H_TextExpres3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:text="5+5"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/H_TextResult3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:text="= 10"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/H_Line3"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="bottom">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="bottom">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btClear"
+            style="@style/ButtonOperation"
+            android:layout_weight="1"
+            android:text="Voltar" />
+    </LinearLayout>
+
+
+</LinearLayout>
